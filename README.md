@@ -1,7 +1,7 @@
 Teagardan: Your Multi-Agent AI System
 Revolutionizing task management with a powerful, flexible, and extensible AI framework.
 
-Teagardan is a cutting-edge multi-agent AI system designed for efficient and adaptable task handling. Built from the ground up for scalability and extensibility, Teagardan empowers you to manage complex workflows with ease. It leverages a modular agent system, allowing for the seamless integration of diverse AI agents, each equipped with specialized skills and tools, working together to accomplish complex tasks. Teagardan intelligently assigns tasks to the best-suited agents, optimizing efficiency and performance. A variety of tools, including web search, web scraping, and local file system access, empower agents to gather and process information from diverse sources. 
+Teagardan is a multi-agent AI system designed for efficient and adaptable task handling. Built from the ground up for scalability and extensibility, Teagardan empowers you to manage complex workflows with ease. It leverages a modular agent system, allowing for the seamless integration of diverse AI agents, each equipped with specialized skills and tools, working together to accomplish complex tasks. Teagardan intelligently assigns tasks to the best-suited agents, optimizing efficiency and performance. A variety of tools, including web search, web scraping, and local file system access, empower agents to gather and process information from diverse sources. 
 
 Phase 1: Building the Foundation
 
