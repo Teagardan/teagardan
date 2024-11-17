@@ -7,11 +7,11 @@ Teagardan is a cutting-edge multi-agent AI system designed for efficient and ada
 
 Core Features:
 
-Modular Agent System: Manage a diverse range of AI agents, each with specialized skills and tools, seamlessly interacting to accomplish complex tasks. Agents are easily added and configured, allowing you to tailor your system to your specific needs.
-Intelligent Task Allocation: Teagardan intelligently assigns tasks to the best-suited agents based on their expertise, optimizing efficiency and performance.
-Robust Tool Integration: Integrate a variety of tools, including web search, web scraping, and local file system access, empowering your agents to gather and process information from diverse sources.
-Advanced Context Management: Manage extensive context windows efficiently using sophisticated techniques for long-term performance and accuracy.
-Comprehensive Testing and CI/CD: Built-in testing and a CI/CD pipeline ensure the system's stability and reliability.
+* Modular Agent System: Manage a diverse range of AI agents, each with specialized skills and tools, seamlessly interacting to accomplish complex tasks. Agents are    easily added and configured, allowing you to tailor your system to your specific needs.
+*Intelligent Task Allocation: Teagardan intelligently assigns tasks to the best-suited agents based on their expertise, optimizing efficiency and performance.
+*Robust Tool Integration: Integrate a variety of tools, including web search, web scraping, and local file system access, empowering your agents to gather and        process information from diverse sources.
+*Advanced Context Management: Manage extensive context windows efficiently using sophisticated techniques for long-term performance and accuracy.
+*Comprehensive Testing and CI/CD: Built-in testing and a CI/CD pipeline ensure the system's stability and reliability.
 Phase 1: Building the Foundation
 
 This initial phase establishes the core components of the Teagardan framework, including:
