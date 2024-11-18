@@ -45,6 +45,25 @@ This guide helps you set up and run the Teagardan project.
 
 8.  **Access the UI:** Open your web browser and navigate to the URL specified by your Flask or React development server.  The URL will usually be `localhost` for the React UI and  `localhost' for API access.
 
+Example Use:
+
+User Input: The user provides the query: "What are the key features of the iPhone 14 Pro?"
+Agent Selection: The system selects the "WebSearcher" agent.
+Web Search Execution: The "WebSearcher" agent uses its WebSearchTool to perform a web search using Google's Custom Search API.
+Response: The system returns a summary of the top search results (titles, URLs, snippets). This might look like:
+Here's what I found about the key features of the iPhone 14 Pro:
+
+Title: iPhone 14 Pro - Apple
+URL: https://www.apple.com/iphone-14-pro
+Description: The iPhone 14 Pro features a stunning Super Retina XDR display with ProMotion, an advanced A16 Bionic chip, and a revolutionary 48MP Main camera. It also includes innovative safety features like Emergency SOS via satellite.
+
+Title: iPhone 14 Pro Review: A Near-Perfect Phone
+URL: https://www.example.com/iphone-14-pro-review
+Description: A detailed review highlighting the iPhone 14 Pro's performance, camera capabilities, and battery life.
+Use code with caution.
+Context Update: The system updates its internal knowledge base with this information
+
+
 For more advanced setup, usage instructions, and details on contributing, please refer to the documentation.
 
 Teagardan is an open-source project, fostering community collaboration. Contribute to this exciting project, help shape the future of AI-powered task management, and transform how you work!
