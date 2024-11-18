@@ -20,7 +20,7 @@ This guide helps you set up and run the Teagardan project.
 **Prerequisites:**
 
 *   Git
-*   Python 3.11 (or later)  with the following packages: `flask`, `sqlite3`, `llama-cpp`, `requests`, `sentence-transformers` (see `requirements.txt` for a complete list).
+*   Python 3.11 (or later)  with the following packages: `flask`, `sqlite3`, `llama-cpp`, `requests`, `sentence-transformers`, `postman`, `DB Browser for SQLite`
 *   Node.js and npm (for the frontend)
 *   An LLM model (e.g., a GGML model in `.gguf` format) for local use.  Place this model in a directory specified in `api.py`.  You may have to make a directory for your model files.
 *   Ollama (if you want to use ollama models)
