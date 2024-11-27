@@ -1,0 +1,29 @@
+tests/
+├── frontend/
+│   ├── App.test.js
+│   ├── components/
+│   │   ├── AgentList.test.js
+│   │   ├── AgentDetails.test.js
+│   │   ├── Thread.test.js
+│   │   ├── TaskInput.test.js
+│   │   ├── OrgChart.test.js  (Or TeagardanUI.test.js)
+│   │   ├── KnowledgeGraphVisualization.test.js
+│   │   ├── TaskManagerUI.test.js
+│   │   ├── AgentConfigurationUI.test.js
+│   │   ├── SystemAdministrationUI.test.js
+│   │   ├── UserProfile.test.js
+│   │   ├── Login.test.js
+│   │   ├── UserManagementUI.test.js
+│   │   └── ...  Other component tests
+│   ├── services/
+│   │   ├── agentService.test.js
+│   │   ├── taskService.test.js
+│   │   └── ... other service tests    
+│   ├── redux/
+│   │   ├── agentSlice.test.js
+│   │   ├── taskSlice.test.js
+│   │   ├── messageSlice.test.js
+│   │   ├── userSlice.test.js
+│   │   ├── systemSettingsSlice.test.js
+│   │   └── usersSlice.test.js
+│   └── setupTests.js (Optional - for configuring the testing environment)

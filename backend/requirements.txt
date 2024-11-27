@@ -1,0 +1,39 @@
+# Core Dependencies
+Flask>=2.0.0
+Flask-CORS>=3.0.0
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.2  # Or faiss-gpu if you have a compatible GPU
+neo4j>=5.0.0       # For Neo4j Knowledge Graph
+python-dotenv>=1.0.0  # For environment variables (recommended)
+PyJWT>=2.0.0 # For JWT token if using.
+
+# Optional Dependencies (Uncomment if needed)
+# scikit-learn>=0.24.0  # For TF-IDF (if using)
+# fuzzywuzzy[speedup]>=0.18.0  # If using fuzzy matching.
+# rdflib>=6.0.0  # For RDF Knowledge Graph (if using RDFlib)
+# google-search-results #For serpapi
+# google-api-python-client>=2.0 # For Google APIs if needed.
+# ... other optional packages ...
+
+#LLM-related dependencies (choose one or more as appropriate for your chosen LLMs).
+transformers>=4.28.0   # For Hugging Face Transformers models.
+llama-cpp-python>=0.1.78  # For llama.cpp models
+
+
+#For other models
+# langchain  #For prompt management and other features.
+
+
+
+# Development/Testing Dependencies (Optional. Install with: pip install -r requirements-dev.txt if needed. It is usually good practice to keep test requirements in a separate file).
+# pytest>=7.0.0
+# pytest-cov>=3.0.0
+# mock
+# requests-mock>=1.9.0
+
+
+
+#For using Ollama with llama.cpp models.
+#Ollama is included as a system dependency so this will likely be installed at the system level, rather than using a virtual environment.

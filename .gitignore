@@ -1,0 +1,75 @@
+# General ignores
+.DS_Store
+Thumbs.db
+*.log
+*.pyc
+*.swp
+*.swo
+*.out
+
+# macOS specific
+.AppleDouble
+.LSOverride
+Icon
+
+# Virtual environment-related (if applicable)
+.venv/
+venv/
+env/
+.env
+
+# Distribution / build artifacts (adjust paths as needed)
+frontend/build/
+backend/dist/
+build/
+dist/
+
+# Node.js-related (frontend)
+node_modules/
+.cache/
+.eslintcache
+
+# Python-related (backend)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database files (if using SQLite)
+backend/agent_data.db
+backend/*.db
+backend/*.db-journal  # Or similar journal files from better-sqlite3
+agent_data.db*.sqlite-wal
+agent_data.db*.sqlite-shm
+*.sqlite*
+*.ldb  # if using LevelDB, for example.
+
+# Configuration files with sensitive data
+.env
+backend/config.json  (Or similar - if you include an example, add an ignore for the actual config)
+backend/config_local.json  (For local dev config)
+config.json
+config.local.json
+*.ini  # or similar format if used for configuration.
+*.cfg  # or similar config extension
+
+# Operating system or editor backup files.
+*~  # or similar formats for backups or temp files, e.g. *#
+.#*  # editor backups
+
+
+# Optional: Large data files (if not using Git LFS)
+data/*.csv
+data/*.jsonl
+# ... other large data file patterns ...
+
+# IDE-specific files.
+.idea/  # PyCharm, IntelliJ
+.vscode/ # VS Code, other Jetbrains products
+*.iml  # Project files
+.project # Project files
+
+
+# Testing-related files or directories.
+.pytest_cache/
+coverage.xml
+htmlcov/

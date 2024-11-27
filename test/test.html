@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Fetch Test</title>
+</head>
+<body>
+    <div id="message"></div>
+    <script>
+        fetch('http://localhost:5001/agents')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('message').innerText = `Data fetched successfully: ${JSON.stringify(data)}`;
+        })
+        .catch(error => {
+            document.getElementById('message').innerText = `Error: ${error}`;
+        });
+    </script>
+</body>
+</html>

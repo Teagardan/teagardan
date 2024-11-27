@@ -1,0 +1,12 @@
+tests/
+└── backend/
+    ├── test_api.py         # Tests for API endpoints
+    ├── test_agent.py        # Tests for agent logic
+    ├── test_agents.py        # Tests for the agents module
+    ├── test_tools.py        # Tests for tool functionality
+    ├── test_memory_manager.py # Tests for memory manager
+    ├── test_task_manager.py  # Tests for task manager
+    ├── test_knowledge_graph.py # Tests for knowledge graph
+    ├── test_embeddings.py    # Tests for embeddings module
+    ├── test_prompts.py       # Tests for prompt templates
+    └── conftest.py       # Optional - for pytest fixtures or setup

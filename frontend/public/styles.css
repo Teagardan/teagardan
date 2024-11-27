@@ -1,0 +1,13 @@
+/* Basic Styling */
+body {
+  font-family: sans-serif;
+}
+#agent-list-container {
+  float: left;
+  width: 20%;
+}
+#thread-container {
+  float: right;
+  width: 75%;
+}
+/* More specific styling for agents, conversations, etc. */
