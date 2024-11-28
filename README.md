@@ -1,8 +1,10 @@
 # Teagardan: Your Multi-Agent AI System
 
-Revolutionizing task management with a powerful, flexible, and extensible AI framework.
+Teagardan: Your Local Multi-Agent AI System
 
-Teagardan is a multi-agent AI system designed for efficient and adaptable task handling. Built from the ground up for scalability and extensibility, Teagardan empowers you to manage complex workflows with ease. It leverages a modular agent system, allowing for seamless integration of diverse AI agents, each equipped with specialized skills and tools, working together to accomplish complex tasks. Teagardan intelligently assigns tasks to the best-suited agents, optimizing efficiency and performance. A variety of tools, including web search, web scraping, and local file system access, empower agents to gather and process information from diverse sources.  Teagardan also incorporates a knowledge graph and memory manager for context-aware task processing and supports user authentication and management for secure access and collaboration.
+Introducing a local task management with a powerful, flexible, and extensible AI framework.
+
+Teagardan is a multi-agent AI system designed for efficient and adaptable handling of tasks on your local machine. Built from the ground up for scalability and extensibility, Teagardan empowers you to manage complex workflows with ease, without relying on external servers or cloud services.  It leverages a modular agent system, allowing you to create diverse AI agents, each with specialized skills and tools, working together to accomplish complex tasks locally. Teagardan intelligently assigns tasks to the best-suited agents based on their skills and the task requirements, optimizing efficiency and performance. A variety of tools, including web search, web scraping, and local file system access, empower agents to gather and process information from diverse sources. Teagardan also incorporates a local knowledge graph (using Neo4j) and a memory manager for context-aware task processing and supports user authentication and management for secure access and collaboration within your local environment.
 
 
 ## Features
