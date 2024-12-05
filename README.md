@@ -115,7 +115,7 @@ This project is licensed under the MIT License.
 * **Other**: Added testing information for the backend tests, including installing dependencies from a test requirements file, making sure a test database is set up and configured correctly, with environment variables, and including optional instructions on how to add test data. Added contributing section, if this is a concern.
 * **Updated License**: Changed License to MIT to match your package.json
 
-![Lucid_workflow](https://lucid.app/lucidchart/e068549b-edd8-49f2-b1a2-bec7315afff9/view)
+![Lucid_workflow](https://lucid.app/lucidchart/e068549b-edd8-49f2-b1a2-bec7315afff9/edit?viewport_loc=-2545%2C-2353%2C4903%2C2768%2C0_0&invitationId=inv_796c5b7e-41ac-43ce-8252-4fa881b0e063)
 
 
 This README is more comprehensive and informative, providing a better overview and clear instructions for all phases. Remember to replace placeholder content (URLs, API documentation, contributing guidelines) with your actual information. It's good practice to include usage examples and specific backend API documentation within your README so that others, or yourself when re-visiting this project later, have a clear understanding of how to use and install your application. If you have other information to include, such as acknowledgements, or references, these can also be added as separate sections or added to existing sections, to create a more helpful and comprehensive guide.
